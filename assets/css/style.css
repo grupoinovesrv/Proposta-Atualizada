@@ -208,4 +208,108 @@ h2{
     font-size: 230%;
 
   }
+.card1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem{
+  border-radius: 13%;
+}
+
+.imagem2{
+  width: 100%;
+
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card img {
+    transition: 0.5s;
+}
+
+.container .card h1 {
+    font-size: 2rem;
+}
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content p {
+    color: #666;
+    transition: 0.5s;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+.alvss:hover {
+  background-color: #202333;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #14142b5d;
+  border-color: #231f35;
+}
+.inovee:hover {
+  background-color: #2bbb8b;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #21857c5d;
+  border-color: #2c706b;
+}
+.gratiaa:hover{
+  background-color: #0499fc;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #0067bb5d;
+  border-color: #007dd1;
+}
+.container .card:hover .content p {
+    color: white;
+}
+
+.container .card:hover .content a{
+    color:black;
+    background-color: white;
+}
   
